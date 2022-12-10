@@ -1,0 +1,27 @@
+{
+  "name": "hw12",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimGordeev/HW12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimGordeev/HW12/issues"
+  },
+  "homepage": "https://github.com/VadimGordeev/HW12#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.1",
+    "parcel": "^2.8.1",
+    "sass": "^1.56.2"
+  }
+}

@@ -1,0 +1,55 @@
+@media screen 
+and (max-width:1024px)
+and (min-width:640px) {
+    body {
+        max-width: 1024px;
+    }
+    .work_about {
+        max-width: 1024px;
+        &_p1{
+            max-width: 794px;
+            height: 54px;
+            font-size: 24px;
+            line-height: 35px
+        }
+        &_p2 {
+            max-width: 794px;
+            height: 54px;
+            font-size: 24px;
+            line-height: 28px
+        }
+        &_separator {
+            max-width: 146px;
+            margin-top: 16px;
+        }
+        &_p3 {
+            font-size: 14px;
+            line-height: 16px;
+            max-width: 794px;
+            height: 80px;
+        }
+    }
+    .work_gallery {
+        display: none;
+    }
+    .work_gallery_tablet {
+        width: 100%;
+        max-width: 1024px;
+        margin-top: 28px;
+        height: 512px;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(2, 50%);
+    }
+    .work_gallery_tablet_box1, .work_gallery_tablet_box2, .work_gallery_tablet_box4, .work_gallery_tablet_box5, .work_gallery_tablet_box6, .work_gallery_tablet_box7 {
+        grid-column : span 1;
+        grid-row : span 1;
+        object-fit: cover;
+    }
+    .work_gallery_tablet_box3 {
+        grid-column : span 1;
+        grid-row : span 2;
+        object-fit: cover;
+        position: relative;
+    }
+}

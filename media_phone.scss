@@ -1,0 +1,60 @@
+@media screen 
+and (max-width:640px) {
+    body {
+        max-width: 320px;
+    }
+    .work_about {
+        max-width: 288px;
+        &_p1{
+            max-width: 286px;
+            height: 54px;
+            font-size: 24px;
+            line-height: 35px
+        }
+        &_p2 {
+            max-width: 288px;
+            height: 54px;
+            font-size: 24px;
+            line-height: 28px
+        }
+        &_separator {
+            width: 100%;
+            max-width: 133px;
+            margin-top: 16px;
+        }
+        &_p3 {
+            font-size: 14px;
+            line-height: 16px;
+            max-width: 288px;
+            height: 130px;
+        }
+    }
+    .work_gallery {
+        display: none;
+    }
+    .work_gallery_phone {
+        width: 100%;
+        max-width: 320px;
+        height: 760px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(5, 20%);
+    }
+    .work_gallery_phone_box1, .work_gallery_phone_box3, .work_gallery_phone_box4, .work_gallery_phone_box5, .work_gallery_phone_box6 {
+        grid-column : span 1;
+        grid-row : span 1;
+        object-fit: cover;
+    }
+    .work_gallery_phone_box2 {
+        grid-column : span 1;
+        grid-row : span 3;
+        object-fit: cover;
+        position: relative;
+    }
+    .work_gallery_phone_box7 {
+        grid-column : span 2;
+        grid-row : span 1;
+        object-fit: cover;
+        position: relative;
+    }
+}
